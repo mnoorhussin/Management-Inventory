@@ -5,7 +5,6 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import login_required, current_user
 from collections import Counter
 from datetime import datetime
-import pdfkit
 from .models import Product, User
 from .import db
 import json
